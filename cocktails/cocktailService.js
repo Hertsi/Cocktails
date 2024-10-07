@@ -1,6 +1,9 @@
 import axios from 'axios';
-
+//tämä käyttää developper avainta, joka löytyy heidän dokumentaatiosta suoraan '1' eli ei taida olla kauhean salassapidettävä
+//muuten en lisäisi gittiin.
 const BASE_URL = 'https://www.thecocktaildb.com/api/json/v1/1';
+
+
 //laitoin tarjolle useemman, mutta ajattelin käyttää randomia :)
 export const fetchCocktailByName = async (name) => {
   try {
